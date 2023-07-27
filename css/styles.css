@@ -646,6 +646,7 @@ background: #2196F3;
   margin: 0 auto;
   height: 500px;
   position: relative;
+  box-sizing: border-box;
 }
 
 .is-hidden {
@@ -718,4 +719,44 @@ height:100%;
 .overlay-img1{
   position:absolute;
   bottom:0;
+}
+
+.info-modal{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 0 40px;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.second-part-form{
+  padding: 20px 40px 40px 40px;
+  box-sizing: border-box;
+}
+.form-description{
+  padding: 0;
+  margin: 0;
+  color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+.form-label{
+  color: #757575;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+}
+.form-input{
+  height: 40px;
+}
+.form-textarea{
+  height: 120px;
 }
