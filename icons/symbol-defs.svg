@@ -220,5 +220,9 @@
 <path fill="currentColor"  d="M28 0h-24c-2.2 0-4 1.8-4 4v24c0 2.2 1.8 4 4 4h24c2.2 0 4-1.8 4-4v-24c0-2.2-1.8-4-4-4zM28 28h-24v-24h24v24z"></path>
 </symbol>
 
+<symbol id="sendmail" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25L10.5017 17.3895L10.509 17.3923L10.5 17.3895V24L14.8013 18.9819L20.2501 21L24 0Z" fill="currentColor"/>
+</symbol>
+
 </defs>
 </svg>

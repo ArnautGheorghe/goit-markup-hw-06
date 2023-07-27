@@ -24,20 +24,14 @@
           <ul>
             <li class="link-for-line line-studio">
               <div class="test1">
-                <a  href="studio.html"> Studio </a>
-           
+                <a href="studio.html"> Studio </a>
               </div>
-              
-                
-              
             </li>
             <li class="link-for-line">
               <a href="portfolio.html">Portfolio</a>
-              
             </li>
             <li class="link-for-line">
               <a href="contacts.html"> Contacts </a>
-              
             </li>
           </ul>
         </nav>
@@ -54,7 +48,7 @@
           <h1 class="title-page">EFFECTIVE SOLUTIONS FOR</h1>
         </div>
         <div><h1 class="title-page">YOUR BUSINESS</h1></div>
-        <button class="buton" data-modal-open >Request our service</button>
+        <button class="buton" data-modal-open>Request our service</button>
       </section>
 
       <section class="details-list">
@@ -425,55 +419,94 @@
           ></a>
         </div>
       </div>
+      <div class="right-part-form">
+        <h2 class="description-form">Subscribe to the newsletter</h2>
+        <form action="" class="footer-form">
+          <label for="news-tab" class="newsletter"></label>
+          <input
+            type="email"
+            class="news-input-form"
+            id="news-tab"
+            placeholder="E-mail" />
+          <input type="submit" class="subscribe-btn" value="Subscribe" />
+          <svg class="sendmail">
+            <use href="./icons/symbol-defs.svg#sendmail"></use>
+          </svg>
+        </form>
+      </div>
     </footer>
 
     <div class="modal is-hidden" data-modal>
-    <div class="modal-content">
-      <button class="close-btn" data-modal-close>&times;</button>
-      <div class="info-modal">
-        <h2 class="form-description">Leave your information and we'll call you back</h2>
-<form action="" class="formular"></form>
-<label for="name" class="form-label name">Name</label>
-<input type="text" class="form-input user-name" name="name" id="name">
-<svg class="user-icon">
-  <use href="./icons/symbol-defs.svg#iconsuser"></use>
+      <div class="modal-content">
+        <button class="close-btn" data-modal-close>&times;</button>
+        <div class="info-modal">
+          <div class="info-modal">
+            <h2 class="form-description">
+              Leave your information and we'll call you back
+            </h2>
+            <form action="" class="formular">
+              <label for="name" class="form-label name">Name</label>
+              <input
+                type="text"
+                class="form-input user-name"
+                name="name"
+                id="name" />
+              <svg class="user-icon icon-design-form">
+                <use href="./icons/symbol-defs.svg#iconsuser"></use>
+              </svg>
 
-</svg>
-
-<label for="telephone" class="form-label telephone">Telephone</label>
-<input type="tel" class="form-input" name="telephone" id="telephone">
-<svg class="telephone-icon">
-  <use href="./icons/symbol-defs.svg#iconsphone"></use>
-
-</svg>
-<label for="mail" class="form-label email-form">E-mail</label>
-<input type="email" class="form-input" name="email" id="mail">
-<svg class="email-icon">
-  <use href="./icons/symbol-defs.svg#iconsenvelop"></use>
-
-</svg>
-<label for="comment" class="form-label comment">Comments</label>
-<textarea class="form-input form-textarea" name="comments" id="comment">Enter the text </textarea>
-</form>
-<form action="" class="second-part-form">
-<input type="checkbox" id="checkbox-agreement" name="agreement" value="ok" class="checkbox-design">
-<svg class="iconscheckbox-unchecked-icon">
-<use href="./icons/symbol-defs.svg#iconscheckbox-unchecked"></use>
-
-</svg>
-  <label for="checkbox-agreement"><span class="agreement-text-design">I agree with the letter and accept the</span>  <span class="terms">Terms and Conditions</span> </label>
-  <br>
-  <div class="send-btn-center"><input type="submit" value="Send" class="send-btn"></div>
-  
-
+              <label for="telephone" class="form-label telephone"
+                >Telephone</label
+              >
+              <input
+                type="tel"
+                class="form-input"
+                name="telephone"
+                id="telephone" />
+              <svg class="telephone-icon icon-design-form">
+                <use href="./icons/symbol-defs.svg#iconsphone"></use>
+              </svg>
+              <label for="mail" class="form-label email-form">E-mail</label>
+              <input type="email" class="form-input" name="email" id="mail" />
+              <svg class="email-icon icon-design-form">
+                <use href="./icons/symbol-defs.svg#iconsenvelop"></use>
+              </svg>
+              <label for="comment" class="form-label comment">Comments</label>
+              <textarea
+                class="form-input form-textarea"
+                name="comments"
+                id="comment">
+Enter the text </textarea
+              >
+            </form>
+          </div>
+          <div>
+            <form action="" class="second-part-form">
+              <input
+                type="checkbox"
+                id="checkbox-agreement"
+                name="agreement"
+                value="ok"
+                class="checkbox-design" />
+              <svg class="iconscheckbox-unchecked-icon icon-design-form">
+                <use
+                  href="./icons/symbol-defs.svg#iconscheckbox-unchecked"></use>
+              </svg>
+              <label for="checkbox-agreement"
+                ><span class="agreement-text-design"
+                  >I agree with the letter and accept the</span
+                >
+                <span class="terms">Terms and Conditions</span>
+              </label>
+              <br />
+              <div class="send-btn-center">
+                <input type="submit" value="Send" class="send-btn" />
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-      
-
-
-
-      </form>
     </div>
-  </div>
 
     <script src="./js/modal.js"></script>
   </body>
