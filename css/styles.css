@@ -725,14 +725,19 @@ height:100%;
 .info-modal{
   display: flex;
   flex-direction: column;
-  padding: 40px 40px 0 40px;
-  gap: 10px;
+  padding: 20px 20px 0 20px;
+  gap: 30px;
   box-sizing: border-box;
 }
 
+.form-first-part, .formular{
+  display: flex;
+  flex-direction: column;
+}
 .second-part-form{
   padding: 20px 40px 40px 40px;
   box-sizing: border-box;
+ 
  
 }
 .form-description{
@@ -799,7 +804,7 @@ padding: 10px 80px ;
 .user-icon{
   position: absolute;
 left:65px;
-top:140px;
+top:150px;
 color:#212121;
 width: 20px;
 height: 20px;
@@ -807,7 +812,7 @@ height: 20px;
 
 .telephone-icon{
   position: absolute;
-  bottom: 470px;
+  bottom: 475px;
   left:65px;
   
 color:#212121;
@@ -816,7 +821,7 @@ height: 20px;
 }.email-icon{
   position: absolute;
   left:65px;
-top:300px;
+top:285px;
 color: #212121;
 width: 20px;
 height: 20px;
@@ -841,18 +846,18 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
+padding-left: 8px;
 }
 
-.checkbox-design{
+.checkbox-design::after:checked{
   opacity: 0.7;
-}
-input{
-  padding-left: 30px;
+  appearance: none;
+
 }
 .iconscheckbox-unchecked-icon {
  position: absolute;
-  left:98px;
-top:546px;
+  left:79px;
+top:545px;
 color: #212121;
 width: 16px;
 height: 16px;
@@ -927,3 +932,51 @@ padding-right: 77px;
   width: 24px;
 height: 24px; 
 }
+
+.form-label:focus-within > svg{
+  color:#2196f3;
+}
+.form-label{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  
+}
+.form-label >input{
+  padding-left: 30px;
+}
+.iconscheckbox-checked-icon{
+  position: absolute;
+  width: 16px;
+height: 16px;
+left: 79px;
+top: 545px;
+color:#fff;
+background-color: #fff;
+border: solid 2px #303030;
+border-radius: 4px;
+}
+
+.checkbox-design{
+    width: 16px;
+  height: 16px;
+  appearance: none;
+  
+}
+
+.checkbox-design:checked + svg{
+color: #2196f3;
+border-color: #2196f3;
+
+
+}
+.ck-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  
+
+

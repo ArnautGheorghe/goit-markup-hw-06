@@ -444,8 +444,9 @@
             <h2 class="form-description">
               Leave your information and we'll call you back
             </h2>
-            <form action="" class="formular">
-              <label for="name" class="form-label name">Name</label>
+            <div class="form-first-part">
+<form action="" class="formular">
+              <label for="name" class="form-label name">Name
               <input
                 type="text"
                 class="form-input user-name"
@@ -454,10 +455,10 @@
               <svg class="user-icon icon-design-form">
                 <use href="./icons/symbol-defs.svg#iconsuser"></use>
               </svg>
+              </label>
 
               <label for="telephone" class="form-label telephone"
-                >Telephone</label
-              >
+                >Telephone
               <input
                 type="tel"
                 class="form-input"
@@ -466,31 +467,41 @@
               <svg class="telephone-icon icon-design-form">
                 <use href="./icons/symbol-defs.svg#iconsphone"></use>
               </svg>
-              <label for="mail" class="form-label email-form">E-mail</label>
+</label>
+
+              <label for="mail" class="form-label email-form">E-mail
               <input type="email" class="form-input" name="email" id="mail" />
               <svg class="email-icon icon-design-form">
                 <use href="./icons/symbol-defs.svg#iconsenvelop"></use>
               </svg>
-              <label for="comment" class="form-label comment">Comments</label>
+</label>
+
+              <label for="comment" class="form-label comment">Comments
               <textarea
                 class="form-input form-textarea"
                 name="comments"
                 id="comment">
 Enter the text </textarea
-              >
+              ></label>
             </form>
+
+            </div>
+            
           </div>
           <div>
             <form action="" class="second-part-form">
-              <input
+              <div class="ck-btn">
+
+                <input
                 type="checkbox"
                 id="checkbox-agreement"
                 name="agreement"
                 value="ok"
                 class="checkbox-design" />
-              <svg class="iconscheckbox-unchecked-icon icon-design-form">
+             
+               <svg class="iconscheckbox-checked-icon icon-design-form">
                 <use
-                  href="./icons/symbol-defs.svg#iconscheckbox-unchecked"></use>
+                  href="./icons/symbol-defs.svg#iconscheckbox-checked"></use>
               </svg>
               <label for="checkbox-agreement"
                 ><span class="agreement-text-design"
@@ -498,6 +509,8 @@ Enter the text </textarea
                 >
                 <span class="terms">Terms and Conditions</span>
               </label>
+              </div>
+              
               <br />
               <div class="send-btn-center">
                 <input type="submit" value="Send" class="send-btn" />
