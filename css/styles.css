@@ -804,7 +804,7 @@ padding: 10px 80px ;
 .user-icon{
   position: absolute;
 left:65px;
-top:150px;
+top:147px;
 color:#212121;
 width: 20px;
 height: 20px;
@@ -812,7 +812,7 @@ height: 20px;
 
 .telephone-icon{
   position: absolute;
-  bottom: 475px;
+  bottom: 488px;
   left:65px;
   
 color:#212121;
@@ -821,7 +821,7 @@ height: 20px;
 }.email-icon{
   position: absolute;
   left:65px;
-top:285px;
+top:287px;
 color: #212121;
 width: 20px;
 height: 20px;
@@ -871,6 +871,10 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .form-input:hover, .form-input:focus{
   border-radius: 4px;
 border: 1px solid #2196F3;}
+
+.form-input:hover >svg{
+color: #2196f3;
+}
 
 .right-part-form{
   display: flex ;
@@ -936,6 +940,8 @@ height: 24px;
 .form-label:focus-within > svg{
   color:#2196f3;
 }
+
+
 .form-label{
   display: flex;
   flex-direction: column;
@@ -964,7 +970,7 @@ border-radius: 4px;
   
 }
 
-.checkbox-design:checked + svg{
+.checkbox-design:hover + svg{
 color: #2196f3;
 border-color: #2196f3;
 
@@ -977,6 +983,52 @@ border-color: #2196f3;
 }
 
 
-  
+  .checkbox-design:checked + svg{
+color: #2196f3;
+border-color: #2196f3;}
 
+
+.agree-check .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+  fill: none;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.agree-check .checkmark:focus+.icon,
+.agree-check .checkmark:checked:focus+.icon {
+  outline: 2px solid;
+}
+
+.agree-check .checkmark:checked+.icon {
+  background-color: #2196f3;
+  border-color: #2196f3;
+  fill: #ffffff;
+  outline: none;
+  stroke: #FFF;
+  stroke-width: 0.2;
+}
+
+.service-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color:#303030;
+}
+.terms-info{
+  color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+}
 
