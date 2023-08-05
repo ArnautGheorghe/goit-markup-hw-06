@@ -872,7 +872,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
 border: 1px solid #2196F3;}
 
-.form-input:hover >svg{
+.form-input:hover svg{
 color: #2196f3;
 }
 
@@ -940,6 +940,9 @@ height: 24px;
 .form-label:focus-within > svg{
   color:#2196f3;
 }
+.form-label:hover > svg{
+  color:#2196f3;
+}
 
 
 .form-label{
@@ -955,8 +958,8 @@ height: 24px;
   position: absolute;
   width: 16px;
 height: 16px;
-left: 79px;
-top: 545px;
+left: 78px;
+top: 544px;
 color:#fff;
 background-color: #fff;
 border: solid 2px #303030;
@@ -1000,6 +1003,10 @@ border-color: #2196f3;}
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.checkmark{
+  width: 16px;
+  height: 16px;
+}
 .agree-check .checkmark:focus+.icon,
 .agree-check .checkmark:checked:focus+.icon {
   outline: 2px solid;
